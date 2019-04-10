@@ -25,6 +25,11 @@ namespace MythicalCanines.Controllers
             return View();
         }
 
+        public IActionResult UserBoard()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
