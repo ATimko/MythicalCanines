@@ -9,4 +9,4 @@ This project is going to be a Mobile Fantasy Dog App Idea
 - Updates (Developer updates page on how the game is doing)
 
 ## Getting Started
-TO get started with this project, clone this repo in VS 2017+ and ensure the .NET Core SDK 2.2 is installed
+To get started with this project, clone this repo in VS 2017+ and ensure the .NET Core SDK 2.2 is installed
