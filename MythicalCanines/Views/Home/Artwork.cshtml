@@ -7,4 +7,19 @@
 
 @*https://docs.microsoft.com/en-us/aspnet/web-pages/overview/ui-layouts-and-themes/9-working-with-images*@
 
-<img src="~/Content/MK9Castle.png" />
+@*<img src="~/Content/MK9Castle.png" />*@
+
+<div class="album text-muted">
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <img src="~/Content/MK9Castle.png" alt="Castle" />
+                <p class="card-text">This is the cats castle with a adventurer near it.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Head  {
+    <link rel="stylesheet" href="~/cssart/Art.css" />
+}
