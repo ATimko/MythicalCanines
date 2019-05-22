@@ -9,35 +9,10 @@ using MythicalCanines.Models;
 
 namespace MythicalCanines.Controllers
 {
-    public class HomeController : Controller
+    public class UserBoardController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult About()
-        {
-            return View();
-        }
-
-        public IActionResult Update()
-        {
-            return View();
-        }
-
-        public IActionResult Artwork()
-        {
-            return View();
-        }
-
-        //[Authorize]
-        //public IActionResult UserBoard()
-        //{
-        //    return View();
-        //}
-
-        public IActionResult Privacy()
+        [Authorize]
+        public IActionResult UserBoard()
         {
             return View();
         }
