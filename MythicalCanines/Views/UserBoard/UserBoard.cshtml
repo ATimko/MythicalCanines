@@ -1,4 +1,4 @@
-﻿
+﻿@model MythicalCanines.Models.Upload
 @{
     ViewData["Title"] = "UserBoard";
 }
@@ -6,6 +6,26 @@
 <h1>UserBoard</h1>
 
 @*https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/twitter-logins?view=aspnetcore-2.2*@
+
+<form action="" method="post" enctype="multipart/form-data">
+
+    <label for="file">Filename:</label>
+    <input type="file" name="file" id="file" />
+
+    <input type="submit" />
+</form>
+
+@*[HttpPost]
+public ActionResult Index(HttpPostedFileBase file) {
+
+  if (file.ContentLength > 0) {
+    var fileName = Path.GetFileName(file.FileName);
+    var path = Path.Combine(Server.MapPath("~/App_Data/uploads"), fileName);
+    file.SaveAs(path);
+  }
+
+  return RedirectToAction("Index");
+}*@
 
 <div class="jumbotron">
     <h1 class="display-3">Work in progress!</h1>
