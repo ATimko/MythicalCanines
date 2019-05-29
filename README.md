@@ -12,3 +12,5 @@ This project is going to be a Mobile Fantasy Dog App Idea
 
 ## Getting Started
 To get started with this project, clone this repo in VS 2017+ and ensure the .NET Core SDK 2.2 is installed.
+
+Having [Bootstrap](https://getbootstrap.com/) 4 or higher with the latest [Node.JS](https://nodejs.org/en/) of 12.2.0 or higher.
