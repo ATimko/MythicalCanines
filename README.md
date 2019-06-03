@@ -1,6 +1,6 @@
 [![BootStrap](https://img.shields.io/badge/Bootstrap%20-4.3.1-brightgreen.svg?style=flat)](https://getbootstrap.com/)
 [![JQuery](https://img.shields.io/badge/JQuery%20-3.4.0-brightgreen.svg?style=flat)](https://jquery.com/)
-[![NodeJS](https://img.shields.io/badge/NodeJS%20-12.2.0-brightgreen.svg?style=flat)](https://jquery.com/)
+[![NodeJS](https://img.shields.io/badge/NodeJS%20-12.2.0-brightgreen.svg?style=flat)](https://nodejs.org/en/)
 
 # QuarterProject
 This project is going to be a Mobile Fantasy Dog App Idea
