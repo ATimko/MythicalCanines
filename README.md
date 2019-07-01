@@ -3,7 +3,7 @@
 [![NodeJS](https://img.shields.io/badge/NodeJS%20-12.2.0-brightgreen.svg?style=flat)](https://nodejs.org/en/)
 [![.NetCore](https://img.shields.io/badge/.NetCore%20-2.2.0-brightgreen.svg?style=flat)](https://dotnet.microsoft.com/download)
 
-# QuarterProject
+# Portfolio
 This project is going to be a Mobile Fantasy Dog App Idea
 
 ## Upcoming Features
