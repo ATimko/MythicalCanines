@@ -1,6 +1,16 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+/*<style type="site.css">*/
+
+@font-face {
+    font-family: 'arcade';
+    src: url(~/text/PressStart2P.ttf)format('opentype');
+}
+.classname{
+    font-family: 'arcade';
+}
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
