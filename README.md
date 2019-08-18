@@ -9,11 +9,11 @@ This project is going to be a Mobile Fantasy Dog App Idea
 ## Upcoming Features
 - Artwork/Consept art of the game
 - About Us (What kind of game is this)
-- Chat rooms (For people who want to ask questions about the game and others could answer or talk about the game in general)
-- Upload pictures of the game in the chatroom
+- Chat rooms (For people who want to ask questions about the game and others could answer or talk about the game in general) (TBA)
+- Upload pictures of the game in the chatroom (TBA)
 - Contact Us (Email)
 - Updates (Developer updates page on how the game is doing)
-- Themes (Light or Dark mode)
+- Themes (Light or Dark mode) (Dark mode for right now)
 
 ## Getting Started
 To get started with this project, clone this repo in VS 2017+ and ensure the [.NET Core SDK 2.2](https://dotnet.microsoft.com/download) is installed.
