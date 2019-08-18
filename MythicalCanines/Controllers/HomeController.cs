@@ -21,6 +21,16 @@ namespace MythicalCanines.Controllers
             return View();
         }
 
+        public IActionResult Character()
+        {
+            return View();
+        }
+
+        public IActionResult Pet()
+        {
+            return View();
+        }
+
         public IActionResult Update()
         {
             return View();

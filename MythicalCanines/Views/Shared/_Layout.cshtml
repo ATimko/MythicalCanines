@@ -6,9 +6,10 @@
     <title>@ViewData["Title"] - MythicalCanines</title>
 
     <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrapdark.css" />
-        @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />*@ 
         <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrapdark.css" />
+        @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />*@
+
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
@@ -42,18 +43,30 @@
                         <li class="nav-item active">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home<span class="sr-only">(current)</span></a>
                         </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About</a>
                         </li>
+
                         @*<li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="UserBoard" asp-action="UserBoard">UserBoard</a>
                         </li>*@
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Update">DeveloperUpdates</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Update">News</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Artwork">Artwork</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Character">Characters</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Pet">Pets</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Artwork">Gameplay</a>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
@@ -69,9 +82,19 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted text-center">
         <div class="container">
-            &copy; 2019 - MythicalCanines - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2019 - MythicalCanines - <a asp-area="" asp-controller="Home" asp-action="Update"> News</a> / <a asp-area="" asp-controller="Home" asp-action="Privacy"> Privacy </a>
+        </div>
+        <div class="esbr">
+            <img src="~/Content/teen.png" alt="" />
+        </div>
+        <div id="trademark">
+            <p>
+                Game content is still in development.<br />
+                Certain specifications and features of your device may affect the game's performance.<br />
+                Persistent Internet and compatible smartphone required. Data charges may apply.<br />
+            </p>
         </div>
     </footer>
 
