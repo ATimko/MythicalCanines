@@ -1,0 +1,15 @@
+﻿body {
+    background-image: url("~/Content/planet.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+@font-face {
+    font-family: 'arcade';
+    src: url(~/text/PressStart2P.ttf)format('opentype');
+}
+
+.classname {
+    font-family: 'arcade';
+}
+
