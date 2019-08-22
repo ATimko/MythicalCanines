@@ -5,7 +5,7 @@ for details on configuring this project to bundle and minify static web assets. 
 
 @font-face {
     font-family: 'arcade';
-    src: url(~/text/PressStart2P.ttf)format('opentype');
+    src: url(../text/Arcade.ttf)format('opentype');
 }
 .classname{
     font-family: 'arcade';
@@ -60,7 +60,7 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    background-image: url('~/Content/planet.jpg');
+    background-image: url('../Content/planet.jpg');
     margin-bottom: 60px;
 }
 .footer {

@@ -1,12 +1,12 @@
 ﻿body {
-    background-image: url("~/Content/planet.jpg");
+    background-image: url("../Content/planet.jpg");
     background-repeat:no-repeat;
     background-size:cover;
 }
 
 @font-face {
     font-family: 'arcade' !important;
-    src: url(~/text/PressStart2P.ttf)format('opentype');
+    src: url(../text/Arcade.ttf)format('opentype');
 }
 
 .textfont {
