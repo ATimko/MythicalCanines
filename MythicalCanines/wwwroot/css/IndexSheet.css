@@ -1,7 +1,8 @@
 ﻿body {
     background-image: url("../Content/mainpage.png");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 @font-face {

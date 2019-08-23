@@ -65,6 +65,7 @@ body {
     /* Margin bottom by footer height */
     background-image: url('../Content/planet.jpg');
     margin-bottom: 60px;
+    color: white;
 }
 .footer {
   position: absolute;
