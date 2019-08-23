@@ -7,10 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="text\Arcade.ttf" />
     <None Remove="text\PressStart2P.ttf" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="text\Arcade.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
     <Content Include="text\PressStart2P.ttf">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>

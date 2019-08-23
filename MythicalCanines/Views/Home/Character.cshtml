@@ -2,6 +2,8 @@
     ViewData["Title"] = "Character Page";
 }
 
+<img class="d-block w-25" src="~/Content/Character.png" alt="" />
+
     <ul class="nav nav-tabs">
         <li class="nav-item">
             <a class="nav-link active" data-toggle="tab" href="#Knight">Knight</a>
@@ -37,7 +39,18 @@
             <p>
                 Knight's have well-rounded base attack, having great attack, defense and can support your teammates with a shield.
             </p>
-            @*<div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#Attacks">Basic Attack</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#KSpecial1">Special Attack 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#KSpecial2">Special Attack 2</a>
+                </li>
+            </ul>
+                @*<div class="btn-group btn-group-toggle" data-toggle="buttons">
                 <label class="btn btn-primary">
                     <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Attack
                     <img class="img-fluid" src="~/Content/livid.png" alt="">
