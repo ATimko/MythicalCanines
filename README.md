@@ -1,5 +1,5 @@
 [![BootStrap](https://img.shields.io/badge/Bootstrap%20-4.3.1-brightgreen.svg?style=flat)](https://getbootstrap.com/)
-[![JQuery](https://img.shields.io/badge/JQuery%20-3.4.0-brightgreen.svg?style=flat)](https://jquery.com/)
+[![JQuery](https://img.shields.io/badge/JQuery%20-3.5.0-brightgreen.svg?style=flat)](https://jquery.com/)
 [![NodeJS](https://img.shields.io/badge/NodeJS%20-12.2.0-brightgreen.svg?style=flat)](https://nodejs.org/en/)
 [![.NetCore](https://img.shields.io/badge/.NetCore%20-2.2.0-brightgreen.svg?style=flat)](https://dotnet.microsoft.com/download)
 
